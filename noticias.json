@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "Quarto de oração - Semana Especial",
+    "data": "10/02/2026",
+    "resumo": "Nesta semana teremos um tempo especial de oração e consagração com a igreja.",
+    "texto": "Nesta semana teremos um tempo especial de oração e consagração com a igreja. Venha participar conosco e convide sua família. Teremos momentos de clamor, louvor e Palavra, buscando direção de Deus para nossas vidas.",
+    "imagem": "img/noticia1.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Aviso: Consagração Geral aos Sábados",
+    "data": "01/02/2026",
+    "resumo": "Todos os sábados às 07h temos consagração geral. Participe!",
+    "texto": "Todos os sábados às 07h temos consagração geral. É um tempo precioso para buscarmos a Deus em oração. Chegue cedo, traga sua Bíblia e venha com expectativa.",
+    "imagem": "img/noticia2.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Culto de Departamentos - Domingo",
+    "data": "07/02/2026",
+    "resumo": "Domingo às 19h teremos culto dirigido pelos departamentos da igreja.",
+    "texto": "Domingo às 19h teremos culto dirigido pelos departamentos da igreja. Será um culto especial, com participação de crianças, jovens e demais departamentos. Venha celebrar conosco!",
+    "imagem": "img/noticia3.jpg"
+  }
+]

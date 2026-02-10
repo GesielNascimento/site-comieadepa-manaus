@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Assembleia de Deus COMIEADEPA em Manaus</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container header__content">
+      <div class="brand">
+        <div class="brand__logo" aria-hidden="true">AD</div>
+        <div class="brand__text">
+          <h1 class="brand__title">Assembleia de Deus COMIEADEPA</h1>
+          <p class="brand__subtitle">Manaus - AM</p>
+        </div>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <nav class="nav" id="navMenu">
+        <a class="nav__link" href="#inicio">Início</a>
+        <a class="nav__link" href="#sobre">Sobre</a>
+        <a class="nav__link" href="#programacoes">Programações</a>
+        <a class="nav__link" href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="inicio" class="hero">
+    <div class="container hero__content">
+      <p class="hero__tag">COMIEADEPA • Manaus</p>
+      <h2 class="hero__title">Seja bem-vindo à nossa igreja</h2>
+      <p class="hero__subtitle">
+        Um lugar de fé, esperança e amor — firmados na Palavra e guiados pelo Espírito.
+      </p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#programacoes">Ver Programações</a>
+        <a class="btn btn--outline" href="#contato">Falar Conosco</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h3 class="section__title">Sobre nós</h3>
+        <p class="section__desc">
+          Somos uma igreja que crê na Bíblia, valoriza a comunhão e vive para anunciar o Evangelho.
+          Nossa missão é edificar famílias e impactar vidas por meio da Palavra, oração e serviço cristão.
+        </p>
+      </div>
+
+      <div class="features">
+        <article class="feature">
+          <h4 class="feature__title">Nossa Missão</h4>
+          <p class="feature__text">Pregar o Evangelho, discipular e servir a comunidade com amor.</p>
+        </article>
+
+        <article class="feature">
+          <h4 class="feature__title">Nossa Visão</h4>
+          <p class="feature__text">Ser uma igreja viva, relevante, cheia do Espírito e comprometida com a Palavra.</p>
+        </article>
+
+        <article class="feature">
+          <h4 class="feature__title">Nossos Valores</h4>
+          <p class="feature__text">Fé, santidade, comunhão, família, serviço e compromisso com Cristo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programações -->
+  <section id="programacoes" class="section section--alt">
+  <div class="container">
+    <div class="section__head">
+      <h3 class="section__title">Programações</h3>
+      <p class="section__desc">
+        Confira nossos horários semanais e participe conosco.
+      </p>
+    </div>
+
+    <!-- JS vai renderizar aqui -->
+    <div class="programacoes-controls">
+  <button class="btn btn--small btn--primary" id="btnToggleProgramacoes">
+    Ver todas
+  </button>
+  <p class="programacoes-hint" id="programacoesHint">
+    Mostrando principais desta semana.
+  </p>
+</div>
+
+<div class="grid" id="programacoesGrid"></div>
+  </div>
+</section>
+
+<!-- Notícias -->
+
+<section id="noticias" class="section">
+  <div class="container">
+    <div class="section__head">
+      <h3 class="section__title">Últimas Notícias</h3>
+      <p class="section__desc">
+        Acompanhe avisos, eventos especiais e atualizações da igreja.
+      </p>
+    </div>
+
+    <!-- JS vai renderizar aqui -->
+    <div class="grid" id="noticiasGrid"></div>
+  </div>
+</section>
+
+<!-- Modal (fica no fim do body) -->
+<div class="modal" id="modal">
+  <div class="modal__overlay" id="modalOverlay"></div>
+
+  <div class="modal__content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal__close" id="modalClose" aria-label="Fechar">✕</button>
+
+    <h4 class="modal__title" id="modalTitle">Título</h4>
+    <p class="modal__meta" id="modalMeta">Data</p>
+    <p class="modal__text" id="modalText">Conteúdo</p>
+  </div>
+</div>
+
+
+
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h3 class="section__title">Contato</h3>
+        <p class="section__desc">
+          Fale com a igreja, acompanhe nossas redes e venha nos visitar.
+        </p>
+      </div>
+
+      <div class="contact">
+
+        <div class="contact__box">
+          <p class="contact__label">Endereço</p>
+          <p class="contact__value">
+            R. Samaria, 30 - Nova Cidade<br/>
+            Manaus - AM, 69099-001
+          </p>
+          <a class="contact__link" target="_blank"
+             href="https://maps.app.goo.gl/RohmFtzL4Fy3uR9N8">
+            Abrir no Google Maps →
+          </a>
+        </div>
+
+        <div class="contact__box">
+          <p class="contact__label">WhatsApp</p>
+          <p class="contact__value">(92) 9505-6704</p>
+          <a class="contact__link" target="_blank"
+             href="https://wa.me/559295056704">
+            Chamar no WhatsApp →
+          </a>
+        </div>
+
+        <div class="contact__box">
+          <p class="contact__label">E-mail</p>
+          <p class="contact__value">ieademanauscomieadepa@gmail.com</p>
+          <a class="contact__link" href="mailto:ieademanauscomieadepa@gmail.com">
+            Enviar e-mail →
+          </a>
+        </div>
+
+      </div>
+
+      <div class="socials">
+        <a class="socials__item" target="_blank" href="https://www.facebook.com/comieadepamanaus">Facebook</a>
+        <a class="socials__item" target="_blank" href="https://www.instagram.com/comieadepa_manaus/">Instagram</a>
+        <a class="socials__item" target="_blank" href="https://www.youtube.com/watch?v=iojifnO8ozs">YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>© <span id="year"></span> Assembleia de Deus COMIEADEPA em Manaus</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
